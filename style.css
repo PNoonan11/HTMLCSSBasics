@@ -1,0 +1,36 @@
+body {
+    width: 80vw;
+    min-width: 800px;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: rgb(109, 112, 151);
+
+}
+html {
+    /* HTML element is the root element of an HTML document. Two instances when you;d apply properties to the html element instead of the body
+    1. WHen you want to use REM units (Relative measurement) used to scale to the font-size property of your root element.
+    2. Applying the background-property to the entire viewport of your screen.   */
+
+    font-size: 10px;
+    background: linear-gradient(
+    133deg, 
+    rgba(11, 235, 48, 1) 0%,
+    rgba(20, 173, 61, 1) 50%,
+    rgba(89, 232, 247, 1) 100%
+);
+}
+
+h1,h2 /*multiple selectors can be used in a single line */
+{
+    font-family: "Roboto", "san-serif";
+    color: #eb1d1d; 
+}
+
+/* h2{
+    font-family: "Roboto", "san-serif";
+    color: #2a2a2a; 
+} */
+p, li {
+    font-family: "Barlow Condensed" , "san-serif";
+    color: #2a2a2a;
+}
